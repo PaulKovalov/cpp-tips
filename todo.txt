@@ -1,0 +1,7 @@
+1. Research why appending char to string is more effective if doing it like this:
+string a;
+char b;
+a += string(1, b);
+
+rather than
+a += b;
